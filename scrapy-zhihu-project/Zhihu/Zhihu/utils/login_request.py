@@ -81,6 +81,6 @@ def is_login():
     else:
         return True
 if __name__=="__main__":
-    # zhihu_login("18833010782","admin123")
+    # zhihu_login("****","****")
     # get_index()
     is_login()

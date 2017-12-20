@@ -3,7 +3,7 @@ __author__ = 'sxz'
 
 import requests
 import MySQLdb
-conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="4313885265", db="zhihuwz", charset="utf8")
+conn = MySQLdb.connect(host="127.0.0.1", user="root", passwd="****", db="zhihuwz", charset="utf8")
 cursor = conn.cursor()
 
 class GetIP(object):

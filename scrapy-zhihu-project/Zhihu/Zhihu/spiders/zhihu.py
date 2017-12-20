@@ -114,8 +114,8 @@ class ZhihuSpider(scrapy.Spider):
             post_url = "https://www.zhihu.com/login/phone_num"
             post_data = {
                 "_xsrf": _xsrf,
-                "phone_num": "18833010782",
-                "password": "admin123",
+                "phone_num": "****",
+                "password": "****",
                 "captcha": ""
             }
             import time
